@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+$border: 1px solid black;
+.puzzle{
+  display: flex;
+  position: relative;
+  border: $border;
+  border-right: $border;
+  &.solution{
+    border-color: green;
+  }
+  .cell{
+    background: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: $border;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:not(.blank){
+      transition: left 0.1s linear, top 0.1s linear;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    &.blank{
+      z-index: -1;
+      background: gainsboro;
+    }
+    &.small{
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+}
+.solution-msg{
+  height: 2rem;
+}
