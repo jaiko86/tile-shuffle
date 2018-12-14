@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tile-shuffle/precache-manifest.8f61de2f3636a0e70f74add023266690.js"
+  "/tile-shuffle/build/precache-manifest.3b9be563decafab46222e46c222f5c87.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tile-shuffle/index.html", {
+workbox.routing.registerNavigationRoute("/tile-shuffle/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
