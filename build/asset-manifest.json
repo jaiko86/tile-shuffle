@@ -1,13 +1,13 @@
 {
-  "main.css": "/tile-shuffle/build/static/css/main.f27567a9.chunk.css",
-  "main.js": "/tile-shuffle/build/static/js/main.22f1cd9d.chunk.js",
-  "main.js.map": "/tile-shuffle/build/static/js/main.22f1cd9d.chunk.js.map",
-  "static/js/1.7071d84a.chunk.js": "/tile-shuffle/build/static/js/1.7071d84a.chunk.js",
-  "static/js/1.7071d84a.chunk.js.map": "/tile-shuffle/build/static/js/1.7071d84a.chunk.js.map",
-  "runtime~main.js": "/tile-shuffle/build/static/js/runtime~main.c214f9ad.js",
-  "runtime~main.js.map": "/tile-shuffle/build/static/js/runtime~main.c214f9ad.js.map",
-  "static/css/main.f27567a9.chunk.css.map": "/tile-shuffle/build/static/css/main.f27567a9.chunk.css.map",
-  "index.html": "/tile-shuffle/build/index.html",
-  "precache-manifest.3b9be563decafab46222e46c222f5c87.js": "/tile-shuffle/build/precache-manifest.3b9be563decafab46222e46c222f5c87.js",
-  "service-worker.js": "/tile-shuffle/build/service-worker.js"
+  "main.css": "/static/css/main.f27567a9.chunk.css",
+  "main.js": "/static/js/main.27ac12d6.chunk.js",
+  "main.js.map": "/static/js/main.27ac12d6.chunk.js.map",
+  "static/js/1.7071d84a.chunk.js": "/static/js/1.7071d84a.chunk.js",
+  "static/js/1.7071d84a.chunk.js.map": "/static/js/1.7071d84a.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.f27567a9.chunk.css.map": "/static/css/main.f27567a9.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.3476ffdbdc27381b6b71b0372232b193.js": "/precache-manifest.3476ffdbdc27381b6b71b0372232b193.js",
+  "service-worker.js": "/service-worker.js"
 }
